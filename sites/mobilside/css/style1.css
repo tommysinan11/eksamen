@@ -1,0 +1,57 @@
+ /* style for standard layout */
+h1>strong{
+    color: white;
+    font-family: 'Rowdies', cursive;
+    margin: 10px;
+    
+
+
+}
+img{
+    width: 100%;
+    height: auto;
+}
+body{
+    margin: 10px;
+    background-color: rgba(153, 140, 103, 0.87);}
+.nav{
+    background-color: #6F1A07;
+            height: 100px;
+}
+
+
+
+
+    
+
+    
+    
+
+
+
+     /* style for webside layout */
+    @media only screen and (min-width: 1000px){
+        
+        .nav {
+            background-color: #6F1A07;
+            height: 40px;
+            
+            .nav ul{
+                align-items: center;
+                list-style: none;
+                margin-top: 20px;
+                
+               
+            }
+        
+        
+        }
+        a{
+            text-decoration: none;
+            color: #AF9164;
+        }
+       
+   .set{
+    max-width:100%;
+   }
+    }

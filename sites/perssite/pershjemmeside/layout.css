@@ -1,0 +1,618 @@
+body {
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1,h2 {
+    color: #082673;
+    font-family: 'Karla', sans-serif;
+}
+
+p, h3, h4 {
+    font-family: 'Merriweather', serif;
+}
+img {
+    border-radius: 10px;
+}
+
+/* navigationsbar */
+header {
+    height: 100px;
+    background-color:  #082673;
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar {
+   font-family:  'Karla', sans-serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+} 
+.navbar ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar a {
+color: white;
+text-decoration: none;
+padding: 60px;
+display: block;
+text-align: center;
+}
+
+.navbar a:hover {
+    color: #74ABF3;
+    scale: 1.1;
+}
+.logo {
+    margin-right: auto; 
+}
+
+.logo img {
+    height: 100px;
+}
+
+.logo2 {
+    margin-right: auto;
+}
+
+.logo2 img {
+    height: 60px;
+}
+.nav_phone {
+    height: 20px;
+    width: 20px;
+}
+.contact-box {
+    color: black;
+    background-color: green;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 15px 15px;
+    height: 25px;
+    align-items: center;
+
+}
+
+/* footer */ 
+footer {
+    background-color: #082673;
+    color: white;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer-column h4 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.fb_logo {
+    height: 40px;
+}
+
+.footer_logo {
+height: 60px;
+}
+.footer_icons {
+height: 20px;
+}
+
+.footer_anmeld {
+    height: 40px;
+    width: 120px;
+}
+/* priseksempler indhold */
+
+/* baggrundsbillede */
+.p_background_image {
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    margin: 0 auto; 
+    background-size: cover;
+}
+
+.p_background_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* beskrivelse */
+.p_beskrivelse {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 1fr;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 40%;
+    padding: 20px;
+    
+}
+
+.p_column_1 {
+    padding: 20px;
+    width: 500px;   
+    margin-right: 20px;
+    background-color: #d4e6f3;
+box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 10px;
+}
+
+/* billede */
+.image_container {
+    width: 100%; 
+    height: 100%; 
+    overflow: hidden; 
+    margin: 0 auto; 
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 10px;
+    }
+    
+    .image_container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+.kontakt {
+    background-color: rgb(219, 35, 35);
+    width: 180px;
+    padding: 10px;  
+    margin-left: 300px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+/*Priseksempler */
+.p_eksempler {
+    display: grid;
+    grid-template-columns: 4fr 4fr 4fr 4fr;
+    grid-template-rows: 1;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+.eksempel {
+    background-color: #d4e6f3;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+border-radius: 10px;
+margin: 10px;
+padding: 10px;
+}
+
+#priseksempel_overskrift {
+    text-align: center;
+}
+
+.pris {
+    color: rgb(219, 35, 35);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p_background_image{
+    background-image: url(img/3_værelser.jpg);
+    position: absolute;
+    background-size: cover;
+    top: 12.6%;
+    background-position: center;
+    height: 72%;
+}
+.p_top_tekst{
+    color: white;
+    position: absolute;
+    bottom: 35%;
+    font-size: 32px;
+    left: 4%;
+    background-color: rgba(59,54,54,0.7);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+/* Om Per side*/
+.mainomoper{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    background-color: #d4e6f3;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+    
+}
+.overskriftomper{
+    font-size: x-large;
+}
+.bolt{
+    font-weight: bolder;
+}
+
+.mainfoto{
+    max-width: 80%;
+    
+}
+.gridphoto{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.gridphoto1{
+    display: flex;
+    
+    flex-direction: start ;
+    justify-content: center;
+    margin-right: 11%;
+    
+}
+.d1{
+    max-height: 89%;
+    max-width: 80%;
+}
+.grid{
+    margin-top: 100px;
+    max-width: 70%;
+    margin-left: 15%;
+    background-color: #ffffff ;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.spacer1{
+    margin-bottom: 750px;
+}
+
+/* kontakt */
+.textholder{
+ position: absolute;
+ top: 230px;
+ left: 350px;
+
+}
+.bgphoto{
+    background-image: url(img/DJI_0187.JPG);
+    position:absolute;
+    width: 100%;
+    height: 72%;
+    top: 12.6%;
+    background-size: 100%;
+}
+.btn{
+    background-color:rgba(116, 171, 243,0.8); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 32px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+.btn2{
+    background-color:rgba(50, 149, 17, 0.8); 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    
+    font-size: 32px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+}
+
+.btn:hover {
+    scale: 1.05;
+}
+
+.btn2:hover {
+    scale: 1.05;
+}
+.kto{
+    font-size: 68px;
+    margin: 0;
+    
+}
+
+.vid_grid{
+    margin-top: 50px;
+    display: flex;
+    max-width: 100%
+    ;
+
+}
+.vid{
+    max-width: 90%;
+     
+}
+
+.textvid{
+    margin-right: 100px;
+    margin-top: 30px;
+    background-color: #d4e6f3;
+    padding: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 10px;
+   
+}
+
+/* kontaktform og forside */
+.form-container {
+    
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    max-width: 250px;
+    max-height: 700px;
+    background: #74abf3b5;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 0.5px solid black;
+    font-size: 24px;
+  }
+  
+  form {
+    width: 100%;
+  }
+  
+  label,
+  textarea,
+  input {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  .ring_knap {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  
+  .ring_knap:hover {
+    background-color: #3f73db;
+  }
+  
+  .form-container label {
+    color: white;
+  }
+  .textform{
+    position: absolute;
+    bottom: 70%;
+  left: 35%;
+  }
+  
+  .pb_container img {
+    display: block;
+    width: 100%; 
+    height: 100%; 
+    border-radius: 50%;
+     object-fit: cover;
+    }
+
+  /* Tidligere opgaver side */
+.grid_1_1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+  }
+  
+  .grid_1_1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .grid_1_1 p {
+    text-align: center;
+    padding: 0;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  .fimg{
+    max-width: 100%;
+    max-height: 50%;
+    background-size: cover;
+  }
+
+
+  .broll{
+    
+    /* max-width: 100%; */
+    width:100%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    
+    
+
+
+
+  }
+  .spacer2{
+    margin-top: 700px;
+  }
+  .services-container{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    
+    
+  }
+ 
+  .udførep{
+    margin-right: 5%;
+    padding: 20px
+    
+  }
+  .toptext{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .f_titel {
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    font-size: 72px;
+  }
+
+  #citat {
+    font-style: oblique;
+  }
+
+  /* adnmeldelser */
+
+  .her {
+    color: green;
+  }
+  .a_grid {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-rows: 2fr 2fr 2fr;
+}
+.reviews-container {
+    background-color: #d4e6f3;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px; 
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review {
+    flex: 1 1 300px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: white;
+    margin-bottom: 20px; 
+    transition: border-color 0.3s ease;
+}
+
+.review img {
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+
+.ov1{
+    text-align: center ;
+}
+
+.ov2{
+    text-align: center;
+}
+
+.popup-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-content {
+    max-width: 80%;
+    max-height: 80vh;
+}
+
+.popup-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.u_overskrift
+{
+    color: white;
+}
+
+#price {
+   color: rgb(219, 35, 35);
+   font-weight: bold;
+}
+
+#forside_overskrift {
+    text-align: center;
+    color: #082673;
+}
+
+.pb_container {
+overflow: hidden;
+width: 300px;
+height: 300px;
+border-radius: 50%;
+
+}
+
+
+
+ 

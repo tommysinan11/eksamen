@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 287 115.53">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #55f;
+        stroke: #ff3fe1;
+        stroke-miterlimit: 10;
+        stroke-width: 10px;
+      }
+
+      .cls-2 {
+        font-family: Impact, Impact;
+        font-size: 48px;
+        isolation: isolate;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" x="5" y="5" width="277" height="105.53" rx="25.51" ry="25.51"/>
+  <text class="cls-2" transform="translate(48.17 74.05)"><tspan x="0" y="0">Play again</tspan></text>
+</svg>

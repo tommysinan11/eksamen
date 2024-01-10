@@ -1,0 +1,44 @@
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.2fr 1fr 0.2fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    background-color: yellow;
+}
+#top{
+    grid-area: 1 / 1 / 2 / 2;
+}
+#spil{
+    grid-area: 2 / 1 / 3 / 2;
+}
+#social{
+    grid-area: 3 / 1 / 4 / 2;
+}
+#menu{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(196, 253, 255);
+    margin-top: 20px;
+    text-decoration: none;
+    
+}
+li{
+  list-style-type: none; 
+  
+}
+a{
+    text-decoration: none;
+}
+#spilnavn{
+    margin-top: 7%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#regler{
+    margin-left: 1%;
+    margin-top: -10%;
+
+}    

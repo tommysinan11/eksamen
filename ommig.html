@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Om Mig</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+
+
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a class="anav" href="#">Tommy Sinan</a></div>
+            <ul class="navbar_links">
+                <li><a class="anav" href="index.html">Forside</a></li>
+                <li><a class="anav" href="portsite.html">Portfolio</a></li>
+                <li><a class="anav" href="ommig.html">Om Mig</a></li>
+            </ul>
+            
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+    
+            </div>
+        </div>
+        <div class="dropdownmenu">
+            <ul>
+                <li><a class="anav" href="index.html">Forside</a></li>
+            <li><a class="anav" href="portsite.html">Portfolio</a></li>
+            <li><a class="anav" href="ommig.html">Om Mig</a></li>
+            </ul>
+        </div>
+        <script>
+            const togglebtn = document.querySelector('.toggle_btn')
+            const togglebtnIcon = document.querySelector('.toggle_btn i')
+            const DropdDownMenu= document.querySelector('.dropdownmenu')
+    
+            togglebtn.onclick = function () {
+                DropdDownMenu.classList.toggle('open')
+                const isopen = DropdDownMenu.classList.contains('open')
+                togglebtnIcon.classList = isopen
+                ? 'fa-solid fa-xmark'
+                
+                : 'fa-solid fa-bars'
+            }
+        </script>
+        
+    </header>
+    <section id="omwarp">
+        <div class="myphotocon">
+            <img id="myphoto" src="img/photoafmig1to1.png" alt="">
+        </div>
+
+        <div id="ominfo">
+            
+            <div class="ommigtop">
+                <div class="ommigheadline">
+                    <h1>Tommy Sinan</h1>
+                     <p>E-sports trænere, Frontend-designer</p>
+                     <p>og Iværksætter</p>
+                </div>
+                <div>
+                    <a id="omknap2" href="https://www.facebook.com/IntegrityXCPH/">besøg min virksomhed her</a>
+                    
+                </div>
+                
+            </div>
+            <div class="ommigtext">
+                <p>Hej, mit navn er Tommy Sinan, og jeg er studerende på KEA. I min fritid elsker jeg at beskæftige mig med e-sport, virksomhedsarbejde og musik. Jeg har nu gået på KEA i et halvt år som multimediedesigner. Grunden til, at jeg valgte at starte som MMDesigner, er, at jeg godt kan lide at arbejde med medier i alle former og have menneskelig kontakt. Jeg har i snart et årti drevet en virksomhed ved navn Integrity-X. 
+
+                    Integrity-X er en virksomhed, som jeg startede op sammen med 5 andre i folkeskolen. Det er en virksomhed, der specialiserer sig i at koordinere og afvikle e-sports- og sociale gaming-events for børn i udsatte områder. Som en del af Integrity-X arbejder jeg som eventkoordinator, e-sportstræner og med opsætning af hjemmesider samt content creation til de sociale medier. </p>
+                <p>Integrity-X har givet mig mange forskellige typer af kompetencer inden for content creation, projektledelse, webudvikling og digitale designprocesser, som jeg finder relevante i forhold til at starte på multimediedesign-uddannelsen. 
+
+                    Derudover arbejder jeg også som salgsleder i Netto, hvilket jeg har gjort i snart 7 år. Det har været med til at udvikle mig som person i forhold til at have ansvar og forstå, at andre mennesker er afhængige af min arbejdsindsats.</p>
+            </div>
+            <div id="haswarp">
+                <p>E-sportsTræner</p>
+                <p>Gamer</p>
+                <p>Pianist</p>
+                <p>CosplayCreater</p>
+                
+
+            </div>
+            <div class="omarb">
+                <div class="omarb1">
+                    <h4>Uddannelse</h4>
+                    <p class="omarb2">Københavns Erhvervsakademi KEA</p>
+                </div>
+                <div class="omarb1">
+                    <h4>Arbejde</h4>
+                    <p class="omarb2">CEO IntegrityX</p>
+                </div>
+
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+         <div class="row">
+             <div class="footer_col">
+                 <h4>Mit Ferma</h4>
+                 <ul>
+                     <li><a href="https://www.facebook.com/IntegrityXCPH/">Integrity-X</a></li>
+                     <li><a href="https://www.instagram.com/integrityxcph/">IXE-sport</a></li>
+                 </ul>
+             </div>
+             <div class="footer_col">
+                 <h4>Min Uddannelse</h4>
+                 <ul>
+                     <li><a href="https://www.kea.dk/">københavns Erhvervsakademi KEA</a></li>
+                 </ul>
+             </div>
+             <div class="footer_col">
+                 <h4>Følge Mig</h4>
+                 <div class="social-links">
+                     
+                     <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                     <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                     <a href="https://twitter.com/?lang=da"><i class="fa-brands fa-square-twitter"></i></a>
+                     <a href="https://dk.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                     
+                 
+                 </div>
+             </div>
+         </div>
+        </div>
+     </footer>
+</body>

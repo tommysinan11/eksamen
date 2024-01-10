@@ -1,0 +1,256 @@
+#screen{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 16/9;
+    position: relative;
+}
+#game{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+#game_background{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#game_elements{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#game_midground{
+    width: 40%;
+    height: 70%;
+    position: absolute;
+    top: 13.7%;
+    left: 27.5%;
+    
+}
+#game_ui{
+    width: 33%;
+    height: 70%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+/* game ui */
+#score_board{
+    max-width: 75%;
+    left: 15%;
+    top: 15%;
+    position: relative;
+    aspect-ratio: 3/1;
+    background-image: url(img/pointcounter.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#minepoint{
+    position: absolute;
+    left: 50%;
+    top: 41%;
+    font-size: x-large;
+    
+   
+}
+#yourscore{
+  position: absolute;
+  left: 49%;
+  top: 41%;
+  font-size: 50px;
+}
+#scoret{
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  font-size: 50px;
+}
+#energy_board {
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    width: 78%;
+    height: 25%;
+    aspect-ratio: 8/2;
+    background-image: url(img/livcounter.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #heart1,
+#heart2,
+#heart3 {
+    position: absolute;
+    width: 49%;
+    height: 124%;
+    aspect-ratio: 1/1;
+    background-image: url(img/liv.svg);
+    background-size: cover;
+    top: -14.8%;
+    left: 0.4%;
+}
+#heart1{
+    left: 46%;
+}
+#heart2{
+    left: 23%;
+}
+#mine_liv {
+    font-size: 3rem;
+    font-family: sans-serif;
+    color: lime;
+  }
+#time_container {
+    position: absolute;
+    width: 6%;
+    aspect-ratio: 5/30;
+    border: 2px solid black;
+    background-color: rgba(208, 204, 204, 0.383);
+    top: 35%;
+    left: 52%;
+    rotate: 90deg;
+  }
+  
+  #time_sprite {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: limegreen;
+    
+  }
+
+
+
+
+#time_board{
+    max-width: 85%;
+    left: 7%;
+    top: 20%;
+    position: relative;
+    aspect-ratio: 4/1;
+    background-image: url(img/timecounter.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* karakter */
+#evilbunny_container{
+    width: 7%;
+    aspect-ratio: 3/4;
+    position: absolute;
+    
+
+}
+#evilbunny_spirit{
+    width: 110%;
+    height: 100%;
+    background-image: url(img/evilbunny.svg);
+    background-size: cover;
+}
+#sweetbunny_container{
+    width: 7%;
+    aspect-ratio: 3/4;
+    position: absolute;
+    
+
+}
+#sweetbunny_spirit{
+    width: 181%;
+    height: 100%;
+    background-image: url(img/sweetbunny.svg);
+    background-size: 100%;
+    background-size: cover;
+}
+/* screens */
+#start {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/start\ skærm.svg);
+    background-size: cover;
+  }
+  #game_over{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/gameover.svg);
+    background-size: cover;
+    margin-left: 2.5%;
+  }
+  #level_complete{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-image: url(img/levelcomplete.svg);
+    background-size: cover;
+    margin-left: 2.5%;
+
+  }
+  #play{
+    position: absolute;
+    top: 45%;
+    left: 49.5%;
+    background-image: url(img/playbtn.svg);
+    width: 12%;
+    height: 10%;
+    background-size: cover;
+    
+  }
+  #playagain{
+    position: absolute;
+    top: 50%;
+    left: 30%;
+    background-image: url(img/playagain.svg);
+    background-size: cover;
+    width: 15%;
+    height: 10.6%;
+
+  }
+  #menubtn{
+    position: absolute;
+    top: 65%;
+    left: 30%;
+    background-image: url(img/menubtn.svg);
+    background-size: cover;
+    width: 15%;
+    height: 10.6%;
+  }
+#playagain1{
+    position: absolute;
+    top: 60%;
+    left: 40%;
+    background-image: url(img/playagain.svg);
+    background-size: cover;
+    width: 15%;
+    height: 10.6%;
+
+  }
+  #menubtn1{
+    position: absolute;
+    top: 75%;
+    left: 40%;
+    background-image: url(img/menubtn.svg);
+    background-size: cover;
+    width: 15%;
+    height: 10.6%;
+  }
+

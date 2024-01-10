@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="spil.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="animation.css">
+     
+    
+</head>
+<title>SpaceBunny</title>
+
+
+
+
+
+<body>
+    <header id="top">
+        <nav id="menu">
+            <li><a href="index.html">forside</a></li>
+            <li><a href="spil.html">SpaceBunnygame</a></li>
+            <li><a href="ide.html">ide</a></li>
+            <li><a href="teknik.html">teknik</a></li>
+            <li><a href="assets.html">assets</a></li>
+            <li><a href="grafik.html">grafik</a></li>
+            
+        </nav>
+        <h1 id="spilnavn">SpaceBunny</h1>
+    </header>
+    
+        
+    <main id="spil">
+        <div id="screen">
+            <div id="game">
+                <audio id="ingamemus" src="sounds/ingame (mp3cut.net).mp3"></audio>
+                <audio id="pow" src="sounds/shot (mp3cut.net).mp3"></audio>
+                    <img id="game_background" src="img/ingamebackground.svg" alt="">
+                
+                 <div id="game_elements">
+                    <audio id="hitevilbunny1" src="sounds/hitevilbunny (mp3cut.net).mp3"></audio>
+                    <audio id="hitsweetbunny1" src="sounds/hitsweetbunny (mp3cut.net).mp3"></audio>
+                    <div id="evilbunny_container">
+                        <div id="evilbunny_spirit"></div>
+                    </div>
+                    <div id="sweetbunny_container" >
+                        <div id="sweetbunny_spirit"></div>
+                    </div>
+                    
+                    
+                </div>
+                
+                <div id="game_ui">
+                    <div id="score_board">
+                        <div id="minepoint_container">
+                            <div id="minepoint">0</div>
+                        </div>
+                    </div>
+                    <div id="time_board">
+                    </div>
+                    <div id="time_container">
+                        <div id="time_sprite" class=""></div>
+                    </div>
+                    
+                    <div id="energy_board">
+                        <div id="mine_liv"></div>
+                        <div id="heart1"></div>
+                        <div id="heart2"></div>
+                        <div id="heart3"></div>
+                    </div>
+                    
+                   
+                    
+                </div>
+    
+            </div>
+            
+            <div id="start">
+                <audio id="startmus" src="sounds/start.mp3"></audio>
+                <div id="play"></div>
+            </div>
+            
+            
+            <div id="game_over">
+                <audio id="gameovermus" src="sounds/lose.mp3"></audio>
+                
+               <div id="playagain"></div>
+               <div id="menubtn"></div>
+            </div>
+            <div id="level_complete">
+                <audio id="levelcompletemus" src="sounds/levelcomplete.mp3"></audio>
+                <h3 id="scoret">YourScore</h3>
+                <div id="yourscore">0</div>
+                <div id="playagain1"></div>
+                <div id="menubtn1"></div>
+                
+            </div>
+        </div>
+        
+     
+        
+
+    </main>
+    <div id="regler">
+        <h2>spilleregler</h2>
+        <p>Spillet vare i 1 min  </p>
+        <p>du har 3 liv</p>
+        <p>Målet er at få så mange point som du kan</p>
+        <p>spillet slutter hvis man ikke har flere liv eller tiden går</p>
+    </div>
+    <footer id="social">SpaceBunny af tommy sinan</footer>
+    <script src="spilmec.js"></script>
+</body>

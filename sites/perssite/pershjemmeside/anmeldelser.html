@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Karla&family=Merriweather:wght@300&display=swap" rel="stylesheet">
+    <title>Anmeldelser</title>
+</head>
+
+<body>
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo_malerfirmaet.jpg" alt="logo">
+        </div>
+        <ul>
+           <li><a href="index.html">Forside</a></li>
+           <li><a href="service.html">Priseksempler</a></li>
+           <li><a href="anmeldelser.html">Tidligere opgaver</a></li>
+           <li><a href="omper.html">Om</a></li>
+           <li><a href="index.html">Kontakt</a></li>
+        </ul>
+        <div class="contact-box">
+            <img class="nav_phone" src="img/phone-icon-in-trendy-flat-style-free-png.webp" alt="phone">
+            <span class="phone-number">40 14 07 79</span>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <h1 class="ov1">Anmeldelser</h1>
+    <h2 class="ov2"> Her kan du læse nogle anmeldelser fra tidligere opgaver af Malermester Per Gülstorff. <br>
+         Læs flere anmeldelser <a class="her" href="https://www.anmeld-haandvaerker.dk/maler/malerfirmaet-gulstorff#go-reviews">her.</a></h2>
+
+<section class="a_grid">
+    <div class="reviews-container">
+        <div class="review" onclick="openPopup('images/Skærmbillede-2023-12-12-kl.-10.33.47.webp')">
+            <img src="images/Skærmbillede-2023-12-12-kl.-10.33.47.webp" alt="review1">
+        </div>
+    </div>
+
+    <div class="reviews-container">
+        <div class="review" onclick="openPopup('images/Skærmbillede-2023-12-12-kl.-10.34.57.webp')">
+            <img src="images/Skærmbillede-2023-12-12-kl.-10.34.57.webp" alt="review2">
+        </div>
+    </div>
+
+    
+    <div class="reviews-container">
+        <div class="review" onclick="openPopup('images/Skærmbillede-2023-12-12-kl.-10.34.32.webp')">
+            <img src="images/Skærmbillede-2023-12-12-kl.-10.34.32.webp" alt="review 3">
+        </div>
+    </div>
+        
+    <div class="reviews-container">
+        <div class="review" onclick="openPopup('images/fixed.webp')">
+            <img src="images/fixed.webp" alt="review4">
+        </div>
+    </div>
+
+    
+    <div class="reviews-container">
+        <div class="review" onclick="openPopup('images/Skærmbillede-2023-12-12-kl.-10.35.35.webp')">
+            <img src="images/Skærmbillede-2023-12-12-kl.-10.35.35.webp" alt="review 5">
+        </div>
+    </div>
+    
+    <div class="reviews-container">
+        <div class="review" onclick="openPopup('images/Skærmbillede-2023-12-12-kl.-10.36.04.webp')">
+            <img src="images/Skærmbillede-2023-12-12-kl.-10.36.04.webp" alt="review 6">
+        </div>
+    </div>
+</section>
+    
+    <div class="popup-container" id="popupContainer" onclick="closePopup()">
+        <div class="popup-content">
+            <span class="close-popup" onclick="closePopup()">&times;</span>
+            <img alt="Enlarged Image" class="popup-image" id="popupImage">
+        </div>
+    </div>
+
+    <script>
+        function openPopup(imageSrc) {
+            document.getElementById('popupImage').src = imageSrc;
+            document.getElementById('popupContainer').style.display = 'flex';
+        }
+
+        function closePopup() {
+            document.getElementById('popupContainer').style.display = 'none';
+        }
+    </script>
+</main>
+
+<footer>
+    <div class="footer-column">
+        <img class="footer_logo" src="img/logo_malerfirmaet.jpg" alt="logo">
+    </div>
+        
+    <div class="footer-column">
+        <h4><img class="footer_icons" src="img/footer_phone.png" alt="phone"> 40 14 07 79</h4>
+    </div>
+  
+    <div class="footer-column">
+        <h4><img class="footer_icons" src="img/666162.png" alt="email"> Per@gulstorff.dk</h4>
+    </div>
+
+    <div class="footer-column">
+        <h4><img class="footer_icons" src="img/footer_location.png" alt="lokation"> Sallingvej 5, 2 t.v. </h4>
+    </div>
+
+    <div class="footer-column">
+        <h4><img class="footer_icons" src="img/cvr_footer.png" alt="cvr"> Cvr. nr. 27818250</h4>
+    </div>
+
+    <div class="footer-column">
+        <a href="https://www.facebook.com/malnu.dk"><img class="fb_logo" src="img/fblogo.png" alt="fb_logo"></a>               
+        <img class="footer_anmeld" src="img/anmeld_footer.png" alt="anmeld">
+    </div>
+  </footer> 
+</body>
+    

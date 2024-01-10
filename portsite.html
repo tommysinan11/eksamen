@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+
+
+
+
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo"><a class="anav" href="#">Tommy Sinan</a></div>
+            <ul class="navbar_links">
+                <li><a class="anav" href="index.html">Forside</a></li>
+                <li><a class="anav" href="portsite.html">Portfolio</a></li>
+                <li><a class="anav" href="ommig.html">Om Mig</a></li>
+            </ul>
+            
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+    
+            </div>
+        </div>
+        <div class="dropdownmenu">
+            <ul>
+                <li><a class="anav" href="index.html">Forside</a></li>
+            <li><a class="anav" href="portsite.html">Portfolio</a></li>
+            <li><a class="anav" href="ommig.html">Om Mig</a></li>
+            </ul>
+        </div>
+        <script>
+            const togglebtn = document.querySelector('.toggle_btn')
+            const togglebtnIcon = document.querySelector('.toggle_btn i')
+            const DropdDownMenu= document.querySelector('.dropdownmenu')
+    
+            togglebtn.onclick = function () {
+                DropdDownMenu.classList.toggle('open')
+                const isopen = DropdDownMenu.classList.contains('open')
+                togglebtnIcon.classList = isopen
+                ? 'fa-solid fa-xmark'
+                
+                : 'fa-solid fa-bars'
+            }
+        </script>
+        
+    </header>
+   <section id="portcolor">
+    <!-- 1 -->
+    <section class="portgrid">
+        <div class="porttop">
+           <div class="headlineport">
+            <h1>Tema 1</h1>
+            <h2>Introuge</h2>
+           </div>
+            <div class="portbeskrivelse">
+                <h2>beskrivelse/hvad jeg har lært</h2>
+                <p>I introduktionsugen lærte jeg om, hvad det egentlig vil sige at være multimediedesigner og hvilke færdigheder, der kræves for at kunne begive sig ud i den virkelige verden. jeg blev introduceret til Figma, VS Code, One.com og Adobes pakke. jeg fik til opgave at lave et præsentationskort af mig selv for at lære, hvordan Figma fungerer, samt at lave en introduktionsvideo med den gruppe, jeg blev tildelt. Denne video skulle være baseret på en titelsekvens, som eksempelvis Friends. Til dette benyttede jeg mig af Premiere Pro til at redigere videoen og anvendte en række sekvenser og indstillinger, såsom close-ups og mid-shots, som jeg blev introduceret til i undervisningen. </p>
+                
+                
+            </div>
+    
+        </div>
+        <h1 class="Oversigtsbord">Oversigtsbord</h1>
+        <div class="portinfo">
+            
+            
+            <div class="tarskcon">
+                <div><i class="fa-solid fa-book"></i>></div>
+                <p>
+                    Udviklingsbaseret viden om multimediedesignerens roll er i erhvervetspraksis 
+                </p>
+            </div>
+            <div class="workcon">
+                <div><i class="fa-solid fa-list-check"></i></div>
+                <p>introduksionkort</p>
+                <ul>
+                    <li><a class="links" href="https://kea-fronter.itslearning.com/ContentArea/ContentArea.aspx?LocationID=6163&LocationType=1">link til introduksionkort</a></li>
+                </ul>
+                <p>introvideo</p>
+                <ul>
+                    <li><a class="links" href="https://www.youtube.com/watch?v=9Zsbmr_uQ3I&ab_channel=gamemaster">link til introvideo</a></li>
+                </ul>
+            </div>
+            <div class="toolcon">
+                <div><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                <p>figma:</p>
+                <p>Adobecreativcloud:</p>
+                
+            </div>
+       </div>
+    </section>
+    <!-- 2 -->
+   <section class="portgrid">
+        <div class="porttop">
+            <div class="headlineport">
+                <h1>Tema 2</h1>
+            <h2>Grundlæggende web</h2>
+            </div>
+            <div class="portbeskrivelse">
+                <h2>beskrivelse/hvad jeg har lært</h2>
+                <p>I teamet GrundlæggendeWeb blev jeg introduceret til studiestartsprøven, hvor jeg startede med at blive klædt godt på i forhold til designprincipper såsom skrifttyper og opsætning af tekst. Derefter blev jeg introduceret til HTML og CSS, hvor jeg skulle lave den klassiske 'Hello, World!' for første gang. Dette var med til at lægge grundstenen for, hvordan man koder en hjemmeside fra bunden. Til studiestartsprøven fik jeg udleveret en zip-fil med det, der skulle være på hjemmesiden, og et wireframe, som jeg skulle følge for at opsætte hjemmesiden korrekt og kunne bestå studiestartsprøven. </p>
+            </div>
+    
+        </div>
+        <h1 class="Oversigtsbord">Oversigtsbord</h1>
+        <div class="portinfo">
+            
+            <div class="tarskcon">
+                
+
+                <div><i class="fa-solid fa-book"></i>></div>
+                <p>
+                    Udviklingsbaseret viden om erhvervets anvendte digitale udvekslings formater  
+                </p>
+                <p>Forståelse af praksisnære principper og metoder til design af brugergrænseflader </p>
+                <p>Udviklings baseret viden om multimediedesignerens roller i erhvervets praksis </p>
+                <p>Forståelse af immaterielle rettigheder og licenseringsmetoder og deres betydning i erhvervets praksis </p>
+                <p>Udviklingsbaseret viden om udvalgte teknologier med relevans for brugergrænseflader og digitalmedieproduktion. </p>
+                <p>Anvende centrale principper, teorier og metoder til design af brugergrænseflader med afsæt i et oplæg </p>
+                <p>Anvende aktuelle frontend-teknologier og miljøer til udvikling og validering af brugergrænseflader </p>
+                
+            </div>
+            <div class="workcon">
+                <div><i class="fa-solid fa-list-check"></i></div>
+                <p>sudiestartsprøve</p>
+                <a class="links" href="sites/mobilside/index.html">link til studiestartsprøvesite</a>
+                
+                
+            </div>
+            <div class="toolcon">
+                <div><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                
+                <p>VScode:</p>
+                
+                <p>One.com:</p>
+                <p>Filezilla:</p>
+            </div>
+        </div>
+      
+    </section>
+    <!-- 3 --> 
+    <section class="portgrid">
+        <div class="porttop">
+            <div class="headlineport">
+                <h1>Tema 3</h1>
+            <h2>GrundlæggendeUX/UI</h2>
+            </div>
+            <div class="portbeskrivelse">
+                <h2>beskrivelse/hvad jeg har lært</h2>
+                 <p>
+                    I teamet for grundlæggende UX/UI fik jeg til opgave at lave en selvvalgt emne-hjemmeside inden for en fastsat tidsplan, hvor jeg selv skulle stå for ideudviklingen og undersøgelse af det emne, jeg valgte at lave en hjemmeside om. Til dette fik jeg introduceret en række modeller og metoder, som skulle hjælpe med at sparke processen i gang. I idegenereringsfasen brugte jeg brainstorming og Lightning Demos til at hjælpe med emnevalget. Da jeg besluttede mig for emnet (esport/csgo), begyndte jeg på desk research for at se, hvordan andre formidlede emnet. Til dette benyttede jeg mig af Crazy 8 fra Four-Step Sketch, moodboard, style tile og brugertest for at finde ud af, hvilken målgruppe og stil mit emne bedst appellerede til.
+
+Herefter begyndte prototypfasen af forløbet, hvor jeg lavede en low-fi prototype i Figma og forsøgte at lave en high-fi prototype, som desværre ikke lykkedes. Derfor valgte jeg at lave et interview med en af mine gamle E-sport-venner, som kunne give mig feedback på min low-fi prototype. Jeg indarbejdede derefter denne feedback i min prototype og layoutdiagram, som skulle indgå i det færdige produkt. Herefter skulle jeg forberede mig på at fremvise mit færdige produkt i form af en fremlæggelse, hvor jeg ville få feedback og gode råd om arbejdsprocessen for at få den bedst mulige feedback og fremlæggelseskvalitet.
+
+Jeg blev undervist i præsentationsteknik for at lære, hvordan man holder struktur og fanger folks opmærksomhed, så jeg bedst muligt kunne fremvise produktet.
+                 </p>
+            
+            </div>
+    
+        </div>
+        <h1 class="Oversigtsbord">Oversigtsbord</h1>
+        <div class="portinfo">
+            
+            <div class="tarskcon">
+                
+
+                <div><i class="fa-solid fa-book"></i>></div>
+                <p>
+                    Forståelse af basaleudviklingsmetoder og modeller, der anvendes i erhvervet 
+                </p>
+                <p>Udviklingsbaseret viden om central teori og metode om brugerforståelse </p>
+                <p>Forståelse af praksisnære principper og metoder til planlægning og produktion af indhold </p>
+                <p>Anvende praksisnære metoder og værktøjer til varetagelse af designprocesser </p>
+                <p>Anvende grundlæggende modellerings og strukturerings principper i udvikling af brugergrænseflader </p>
+                <p>Formidle praksisnære design og udviklingsprocesser og løsninger til samarbejdspartnere </p>
+                <p>indsamle, analysere og anvende empiriske data om brugere og brugssituationer </p>
+                <p>Anvende erhvervets grundlæggende metoder, principper og teknologier til design af digitale brugeroplevelser </p>
+                <p>Anvende praksisnær metode til planlægning, udførelse og formidling af brugertest </p>
+                
+            </div>
+            <div class="workcon">
+                <div><i class="fa-solid fa-list-check"></i></div>
+                <p>Research og idé</p>
+                <a class="links" href="pdfogpp/researchogide.pdf">link til Research og idé.pdf</a>
+                <p>Digital prototype</p>
+                <p>ikke lavet</p>
+                <p>Kodet site</p>
+                <a class="links" href="sites/selvvalgtside/index.html">link til hjemmeside</a>
+                <p>Præsentation</p>
+                <a class="links" href="pdfogpp/Præsentation.pptx">link til Præsentation.pptx</a>
+            </div>
+            <div class="toolcon">
+                <div><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                <p>figma:</p>
+                <p>VScode:</p>
+                <p>Adobecreativcloud:</p>
+                <p>One.com:</p>
+                <p>Filezilla:</p>
+                <p>Lightning Demos:</p>
+                <p>Four-Step Sketch:</p>
+                <p>moodboards:</p>
+                <p>brugertyper:</p>
+                <p>low-fi/high-fi:</p>
+            </div>
+        </div>
+        
+        
+  
+      
+    </section>
+    <!-- 4 -->
+    <section class="portgrid">
+        <div class="porttop">
+            <div class="headlineport">
+                <h1>Tema 4</h1>
+            <h2>Grundlæggende animation </h2>
+            </div>
+            <div class="portbeskrivelse">
+                <h2>beskrivelse/hvad jeg har lært</h2>
+                <p>I emnet grundlæggende animation fik jeg til opgave at designe og kode mit eget spil fra bunden ved hjælp af HTML, CSS og JavaScript (JS). Jeg begyndte med at modtage undervisning i JS for at opnå en grundlæggende forståelse af, hvordan vi skulle kode spillet. Derefter gik jeg ind i ideudviklingsfasen, hvor jeg blev introduceret til tidligere studerendes spil for at få en idé om spillets kompleksitet. Hurtigt fandt jeg ud af, hvilken type spil jeg ville lave, og jeg finpudsede idéen ved hjælp af værktøjer som Four-Step Sketch, Style Tile og Moodboard.
+    
+                    Jeg valgte at bruge kawaii-stilen, som var et af de mange stilmuligheder, jeg havde fået tildelt. Herefter gik jeg i gang med at skitse og tegne mine spilelementer i Adobe Illustrator. Efter at have været tilfreds med mine spilelementer, påbegyndte jeg kodningen af spillet. For at holde styr på og planlægge bedst muligt i forhold til koden udarbejdede jeg et State Machine Diagram, som jeg fulgte for at få spillet færdigt.</p>
+                
+                
+            </div>
+    
+        </div>
+        <h1 class="Oversigtsbord">Oversigtsbord</h1>
+        <div class="portinfo">
+            
+            <div class="tarskcon">
+                
+
+                <div><i class="fa-solid fa-book"></i>></div>
+                <p>
+                    Udviklingsbaseret viden om erhvervets anvendte digitale udvekslingsformater  
+                </p>
+                <p>Forståelse af i praksis anvendte frontend-teknologier </p>
+                <p>Udviklingsbaseret viden om digitalemedier, indholdstyper og udtryksformer </p>
+                <p>Udviklingsbaseret viden om udvalgteteknologier med relevans for brugergrænseflader og digital medieproduktion.</p>
+                <p>Anvende praksisnære metoder og værktøjer til varetagelse af designprocesser </p>
+                <p>Anvende grundlæggende modellerings- og struktureringsprincipper i udvikling af brugergrænseflader</p>
+                <p>Varetage praksisnære tværfaglige arbejdsprocesser med en systematisk tilgang </p>
+                <p>Under vejledning tilegner sig ny viden, færdigheder og kompetencer i relation til multimediedesignerens praksis. </p>
+                
+                
+            </div>
+            <div class="workcon">
+                <div><i class="fa-solid fa-list-check"></i></div>
+                <p>mit færdige spil</p>
+                <a class="links" href="sites/spacebunnydone/index.html" target="_blank" rel="noopener noreferrer">link til SpaceBunny</a>
+                
+            </div>
+            <div class="toolcon">
+                <div><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                <p>figma:</p>
+                <p>VScode:</p>
+                <p>Adobecreativcloud:</p>
+                <p>One.com:</p>
+                <p>Filezilla:</p>
+                <p>Lightning Demos:</p>
+                <p>Four-Step Sketch:</p>
+                <p>moodboards:</p>
+                <p>State Machine Diagram:</p>
+                <p>low-fi/high-fi:</p>
+                <p>Light House-Test:</p>
+            </div>
+        </div>
+        
+    </section>
+    <!-- 5 -->
+ <section class="portgrid">
+        <div class="porttop">
+            <div class="headlineport">
+                <h1>Tema 5</h1>
+                <h2>Grundlæggende-indhold</h2>
+            </div>
+            <div class="portbeskrivelse">
+                <h2>beskrivelse/hvad jeg har lært</h2>
+                <p>I Team 5 Grundlæggende Indhold blev vi inddelt i grupper og fik til opgave at lave en hjemmeside til en eksisterende virksomhed. Kravet var at inkludere en interviewvideo på hjemmesiden. Vi startede med at producere en øvelsesvideo for at lære mere om bi-rollen, filmning og klippeteknikker for at kunne skabe den bedst mulige interviewvideo.
+    
+                    Herefter påbegyndte vi udviklingen af virksomhedens hjemmeside. Først udarbejdede vi en teamkontrakt og valgte virksomheden, Per Gulstorffs malerfirma, som var ejet af et af gruppemedlemmernes far. Vi begyndte derefter at planlægge og fordele roller baseret på Basadur-testen og ved hjælp af SCRUM-modellen for at skabe det bedst mulige arbejdsmiljø for alle gruppemedlemmerne. Jeg fik tildelt størstedelen af opgaverne med kodning, klipning samt udviklingen af low-fi og high-fi prototyper.
+                    
+                    I researchfasen af opgaven var vi i kontakt med Per for at afdække, hvad han ønskede at formidle til sine kunder gennem hjemmesiden. Vi ønskede også at forstå, hvad hans kunder syntes om hans service og hjemmeside, så vi anvendte en Bipolær Emotionel Respons Test (BERT-TEST) for at få en bedre forståelse af, hvor vi var i forhold til vores mål. Efterfølgende udførte vi en Light House Test for at optimere hjemmesidens performance.
+                    
+                    Da alt var på plads og færdigt, forberedte vi os på fremlæggelsen af vores opgave og afleverede den.</p>
+                
+                
+            </div>
+        </div>
+        <h1 class="Oversigtsbord">Oversigtsbord</h1>
+        <div class="portinfo">
+            
+            <div class="tarskcon">
+                
+
+                <div><i class="fa-solid fa-book"></i>></div>
+                <p>
+                    Udviklingsbaseret viden om erhvervets anvendte digitale udvekslingsformater 
+                </p>
+                <p>Udviklingsbaseret viden om i praksis anvendte principper og teorier om brugeroplevelse og brugerens samspil med digitale medieproduktioner </p>
+                <p>Udviklingsbaseret viden om udvalgte teknologier med relevans for brugergrænseflader og digital medieproduktion. </p>
+                <p>Anvende centrale principper, teorier og metoder til design af brugergrænseflader med afsæt i et oplæg </p>
+                <p>Anvende aktuelle frontend-teknologier og -miljøer til udvikling og validering af brugergrænseflader </p>
+                <p>Formidle praksisnære design-og udviklingsprocesser og løsninger til samarbejdspartnere </p>
+                <p>Anvende data samt grundlæggende principper og metoder til organisering af indhold i brugergrænseflader </p>
+                <p>Anvende data samt centrale teknologier, værktøjer og metoder til produktion og præsentation af digitalt indhold ud fra et oplæg. </p>
+                <p>Håndtere grundlæggende udvikling og produktion af brugergrænseflader, brugeroplevelser og indhold med afsæt i et givet oplæg </p>
+                
+            </div>
+            <div class="workcon">
+                <div><i class="fa-solid fa-list-check"></i></div>
+                <p>øvelses video</p>
+                <a class="links" href="https://www.youtube.com/watch?v=Dr_ia6auBUE&t=2s&ab_channel=gamemaster">link til video øvelse</a>
+                <p>Pers ejen site</p>
+                <a class="links" href="https://www.gulstorff.dk/om.htm">link til Pers site</a>
+                <p>vores site til Pers Malerfirma</p>
+                <a class="links" href="sites/perssite/pershjemmeside/index.html">link til vores site</a>
+
+            </div>
+            <div class="toolcon">
+                <div><i class="fa-solid fa-screwdriver-wrench"></i></div>
+                <p>figma:</p>
+                <p>VScode:</p>
+                <p>Adobecreativcloud:</p>
+                <p>One.com:</p>
+                <p>Filezilla:</p>
+                <p>Lightning Demos:</p>
+                <p>Four-Step Sketch:</p>
+                <p>moodboards:</p>
+                <p>brugertyper:</p>
+                <p>low-fi/high-fi:</p>
+                <p>Bert-Test:</p>
+                <p>SCRUM:</p>
+                <p>Light House-Test:</p>
+
+            </div>
+        </div>
+        
+        
+  
+       
+    </section>
+   </section>
+   
+   <footer>
+    <div class="container">
+     <div class="row">
+         <div class="footer_col">
+             <h4>Mit Ferma</h4>
+             <ul>
+                 <li><a href="https://www.facebook.com/IntegrityXCPH/">Integrity-X</a></li>
+                 <li><a href="https://www.instagram.com/integrityxcph/">IXE-sport</a></li>
+             </ul>
+         </div>
+         <div class="footer_col">
+             <h4>Min Uddannelse</h4>
+             <ul>
+                 <li><a href="https://www.kea.dk/">københavns Erhvervsakademi KEA</a></li>
+             </ul>
+         </div>
+         <div class="footer_col">
+             <h4>Følge Mig</h4>
+             <div class="social-links">
+                 
+                 <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                 <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                 <a href="https://twitter.com/?lang=da"><i class="fa-brands fa-square-twitter"></i></a>
+                 <a href="https://dk.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                 
+             
+             </div>
+         </div>
+     </div>
+    </div>
+ </footer>
+    
+</body>

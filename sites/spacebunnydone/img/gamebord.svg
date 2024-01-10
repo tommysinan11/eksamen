@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="liv" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 813 813">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e6e6;
+      }
+
+      .cls-1, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: 8px;
+      }
+    </style>
+  </defs>
+  <g>
+    <rect class="cls-1" x="4" y="4" width="805" height="805"/>
+    <path class="cls-2" d="m805,8v797H8V8h797m8-8H0v813h813V0h0Z"/>
+  </g>
+  <line class="cls-3" x1="2" y1="255" x2="809" y2="255"/>
+  <line class="cls-3" x1="6" y1="546" x2="813" y2="546"/>
+  <line class="cls-3" x1="271" y1="3" x2="271" y2="810"/>
+  <line class="cls-3" x1="541" y1="6" x2="541" y2="813"/>
+</svg>
